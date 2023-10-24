@@ -766,7 +766,7 @@ button[type=submit]:hover {
 .image {
     position: relative;
     background: transparent;
-    border-radius: 50%;
+    border-radius: 40%;
     overflow: hidden;
     width: 300%;
     height: 50%;
