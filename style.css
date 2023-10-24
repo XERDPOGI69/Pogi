@@ -337,8 +337,8 @@ section {
     border-radius: 50%;
     overflow: hidden;
     display: flex;
-    width: 30%;
-    height: 80%;
+    width: 200px;
+    height: 1000px;
     
     animation: imgg 1s ease-in-out infinite;
     animation-delay: 2s;
@@ -756,7 +756,7 @@ button[type=submit]:hover {
     position: relative;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 300%;
     height: 450px;
     left: 15%;
     
@@ -764,14 +764,14 @@ button[type=submit]:hover {
     
 }
 .image {
-    position: absolute;
+    position: relative;
     background: transparent;
     border-radius: 50%;
     overflow: hidden;
-    width: 100%;
+    width: 300%;
     height: 50%;
-    bottom: -200px;
-    right: 200px;
+    bottom: -80px;
+    right: 130px;
     animation: imgg 1s ease-in-out infinite;
     animation-delay: 2s;
     
@@ -788,7 +788,7 @@ button[type=submit]:hover {
     }
 }
 .image img{
-    position: relative;
+   
     top: .5rem;
 
 }
@@ -816,7 +816,7 @@ button[type=submit]:hover {
     background: #6DA9E4;
     border-radius: 50%;
     position: absolute;
-    right: 30px;
+    right: 10px;
     top: 20px;
     box-shadow: 0 0 1rem #6DA9E4;
     
@@ -957,11 +957,18 @@ button[type=submit]:hover {
 }
 
 @media(max-width: 610px){
-  .image{
+  
+     
+    .right{}
+    
+    .image{
+        
     margin-bottom: 500px;
+    margin-right: -50px;
   }
   .round{
     margin-bottom: 500px;
+    margin-right: -50px;
   }
 
   .home-content{
